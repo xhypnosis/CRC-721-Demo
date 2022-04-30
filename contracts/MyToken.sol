@@ -17,10 +17,12 @@ contract MyToken is
 
   Counters.Counter private _tokenIdCounter;
 
+  string private baseUri = "https://metadata.conflux.fun/metadata/test0.json";
+
   constructor() ERC721("MyToken", "MTK") {}
 
-  function _baseURI() internal pure override returns (string memory) {
-    return "https://metadata.conflux.fun/metadata/test0.json";
+  function setURI(string memory newuri) public onlyOwner {
+    baseUri = newuri;
   }
 
   function safeMint(address to, string memory uri) public onlyOwner {
@@ -46,8 +48,6 @@ contract MyToken is
       _exists(tokenId),
       "ERC721Metadata: URI query for nonexistent token"
     );
-
-    string memory baseURI = _baseURI();
-    return bytes(baseURI).length > 0 ? string(abi.encodePacked(baseURI)) : "";
+    return baseUri;
   }
 }

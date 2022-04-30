@@ -15,42 +15,42 @@
     "absolutePath": "@confluxfans/contracts/InternalContracts/InternalContractsHandler.sol",
     "exportedSymbols": {
       "Address": [
-        2104
+        2114
       ],
       "AdminControl": [
-        159
+        169
       ],
       "ConfluxContext": [
-        180
+        190
       ],
       "ERC1820Context": [
-        549
+        559
       ],
       "IERC1820Registry": [
-        2529
+        2539
       ],
       "InternalContracts": [
-        272
+        282
       ],
       "InternalContractsHandler": [
-        228
+        238
       ],
       "PoSRegister": [
-        352
+        362
       ],
       "SponsorWhitelistControl": [
-        455
+        465
       ],
       "Staking": [
-        503
+        513
       ]
     },
-    "id": 229,
+    "id": 239,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 182,
+        "id": 192,
         "literals": [
           "solidity",
           "^",
@@ -63,11 +63,11 @@
       {
         "absolutePath": "@confluxfans/contracts/utils/ERC1820Context.sol",
         "file": "../utils/ERC1820Context.sol",
-        "id": 183,
+        "id": 193,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 229,
-        "sourceUnit": 550,
+        "scope": 239,
+        "sourceUnit": 560,
         "src": "58:37:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -75,11 +75,11 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/SponsorWhitelistControl.sol",
         "file": "./SponsorWhitelistControl.sol",
-        "id": 184,
+        "id": 194,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 229,
-        "sourceUnit": 456,
+        "scope": 239,
+        "sourceUnit": 466,
         "src": "96:39:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -87,11 +87,11 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/AdminControl.sol",
         "file": "./AdminControl.sol",
-        "id": 185,
+        "id": 195,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 229,
-        "sourceUnit": 160,
+        "scope": 239,
+        "sourceUnit": 170,
         "src": "136:28:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -99,11 +99,11 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/InternalContractsLib.sol",
         "file": "./InternalContractsLib.sol",
-        "id": 186,
+        "id": 196,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 229,
-        "sourceUnit": 273,
+        "scope": 239,
+        "sourceUnit": 283,
         "src": "165:36:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -113,13 +113,13 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 188,
+              "id": 198,
               "name": "ERC1820Context",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 549,
+              "referencedDeclaration": 559,
               "src": "329:14:4"
             },
-            "id": 189,
+            "id": 199,
             "nodeType": "InheritanceSpecifier",
             "src": "329:14:4"
           }
@@ -127,16 +127,16 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 187,
+          "id": 197,
           "nodeType": "StructuredDocumentation",
           "src": "203:79:4",
           "text": " @dev Provides default configurations for Conflux internal contracts."
         },
         "fullyImplemented": true,
-        "id": 228,
+        "id": 238,
         "linearizedBaseContracts": [
-          228,
-          549
+          238,
+          559
         ],
         "name": "InternalContractsHandler",
         "nameLocation": "301:24:4",
@@ -144,13 +144,13 @@
         "nodes": [
           {
             "body": {
-              "id": 226,
+              "id": 236,
               "nodeType": "Block",
               "src": "364:495:4",
               "statements": [
                 {
                   "condition": {
-                    "id": 194,
+                    "id": 204,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -163,18 +163,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 192,
+                        "id": 202,
                         "name": "_isCfxChain",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 528,
+                        "referencedDeclaration": 538,
                         "src": "379:11:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
                           "typeString": "function () view returns (bool)"
                         }
                       },
-                      "id": 193,
+                      "id": 203,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -194,17 +194,17 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 197,
+                  "id": 207,
                   "nodeType": "IfStatement",
                   "src": "374:51:4",
                   "trueBody": {
-                    "id": 196,
+                    "id": 206,
                     "nodeType": "Block",
                     "src": "394:31:4",
                     "statements": [
                       {
-                        "functionReturnParameters": 191,
-                        "id": 195,
+                        "functionReturnParameters": 201,
+                        "id": 205,
                         "nodeType": "Return",
                         "src": "408:7:4"
                       }
@@ -213,17 +213,17 @@
                 },
                 {
                   "assignments": [
-                    202
+                    212
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 202,
+                      "id": 212,
                       "mutability": "mutable",
                       "name": "users",
                       "nameLocation": "504:5:4",
                       "nodeType": "VariableDeclaration",
-                      "scope": 226,
+                      "scope": 236,
                       "src": "487:22:4",
                       "stateVariable": false,
                       "storageLocation": "memory",
@@ -233,7 +233,7 @@
                       },
                       "typeName": {
                         "baseType": {
-                          "id": 200,
+                          "id": 210,
                           "name": "address",
                           "nodeType": "ElementaryTypeName",
                           "src": "487:7:4",
@@ -242,7 +242,7 @@
                             "typeString": "address"
                           }
                         },
-                        "id": 201,
+                        "id": 211,
                         "nodeType": "ArrayTypeName",
                         "src": "487:9:4",
                         "typeDescriptions": {
@@ -253,12 +253,12 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 208,
+                  "id": 218,
                   "initialValue": {
                     "arguments": [
                       {
                         "hexValue": "31",
-                        "id": 206,
+                        "id": 216,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -280,7 +280,7 @@
                           "typeString": "int_const 1"
                         }
                       ],
-                      "id": 205,
+                      "id": 215,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -293,7 +293,7 @@
                       },
                       "typeName": {
                         "baseType": {
-                          "id": 203,
+                          "id": 213,
                           "name": "address",
                           "nodeType": "ElementaryTypeName",
                           "src": "516:7:4",
@@ -303,7 +303,7 @@
                             "typeString": "address"
                           }
                         },
-                        "id": 204,
+                        "id": 214,
                         "nodeType": "ArrayTypeName",
                         "src": "516:9:4",
                         "typeDescriptions": {
@@ -312,7 +312,7 @@
                         }
                       }
                     },
-                    "id": 207,
+                    "id": 217,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -332,28 +332,28 @@
                 },
                 {
                   "expression": {
-                    "id": 216,
+                    "id": 226,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "baseExpression": {
-                        "id": 209,
+                        "id": 219,
                         "name": "users",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 202,
+                        "referencedDeclaration": 212,
                         "src": "538:5:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
                           "typeString": "address[] memory"
                         }
                       },
-                      "id": 211,
+                      "id": 221,
                       "indexExpression": {
                         "hexValue": "30",
-                        "id": 210,
+                        "id": 220,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -384,7 +384,7 @@
                       "arguments": [
                         {
                           "hexValue": "30",
-                          "id": 214,
+                          "id": 224,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -406,7 +406,7 @@
                             "typeString": "int_const 0"
                           }
                         ],
-                        "id": 213,
+                        "id": 223,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -418,14 +418,14 @@
                           "typeString": "type(address)"
                         },
                         "typeName": {
-                          "id": 212,
+                          "id": 222,
                           "name": "address",
                           "nodeType": "ElementaryTypeName",
                           "src": "549:7:4",
                           "typeDescriptions": {}
                         }
                       },
-                      "id": 215,
+                      "id": 225,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -446,7 +446,7 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 217,
+                  "id": 227,
                   "nodeType": "ExpressionStatement",
                   "src": "538:21:4"
                 },
@@ -454,11 +454,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 223,
+                        "id": 233,
                         "name": "users",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 202,
+                        "referencedDeclaration": 212,
                         "src": "616:5:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
@@ -475,46 +475,46 @@
                       ],
                       "expression": {
                         "expression": {
-                          "id": 218,
+                          "id": 228,
                           "name": "InternalContracts",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 272,
+                          "referencedDeclaration": 282,
                           "src": "569:17:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_InternalContracts_$272_$",
+                            "typeIdentifier": "t_type$_t_contract$_InternalContracts_$282_$",
                             "typeString": "type(library InternalContracts)"
                           }
                         },
-                        "id": 221,
+                        "id": 231,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "SPONSOR_CONTROL",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 250,
+                        "referencedDeclaration": 260,
                         "src": "569:33:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_SponsorWhitelistControl_$455",
+                          "typeIdentifier": "t_contract$_SponsorWhitelistControl_$465",
                           "typeString": "contract SponsorWhitelistControl"
                         }
                       },
-                      "id": 222,
+                      "id": 232,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "addPrivilege",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 448,
+                      "referencedDeclaration": 458,
                       "src": "569:46:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_array$_t_address_$dyn_memory_ptr_$returns$__$",
                         "typeString": "function (address[] memory) external"
                       }
                     },
-                    "id": 224,
+                    "id": 234,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -529,13 +529,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 225,
+                  "id": 235,
                   "nodeType": "ExpressionStatement",
                   "src": "569:53:4"
                 }
               ]
             },
-            "id": 227,
+            "id": 237,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -543,25 +543,25 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 190,
+              "id": 200,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "361:2:4"
             },
             "returnParameters": {
-              "id": 191,
+              "id": 201,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "364:0:4"
             },
-            "scope": 228,
+            "scope": 238,
             "src": "350:509:4",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
           }
         ],
-        "scope": 229,
+        "scope": 239,
         "src": "283:578:4",
         "usedErrors": []
       }
@@ -572,42 +572,42 @@
     "absolutePath": "@confluxfans/contracts/InternalContracts/InternalContractsHandler.sol",
     "exportedSymbols": {
       "Address": [
-        2104
+        2114
       ],
       "AdminControl": [
-        159
+        169
       ],
       "ConfluxContext": [
-        180
+        190
       ],
       "ERC1820Context": [
-        549
+        559
       ],
       "IERC1820Registry": [
-        2529
+        2539
       ],
       "InternalContracts": [
-        272
+        282
       ],
       "InternalContractsHandler": [
-        228
+        238
       ],
       "PoSRegister": [
-        352
+        362
       ],
       "SponsorWhitelistControl": [
-        455
+        465
       ],
       "Staking": [
-        503
+        513
       ]
     },
-    "id": 229,
+    "id": 239,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 182,
+        "id": 192,
         "literals": [
           "solidity",
           "^",
@@ -620,11 +620,11 @@
       {
         "absolutePath": "@confluxfans/contracts/utils/ERC1820Context.sol",
         "file": "../utils/ERC1820Context.sol",
-        "id": 183,
+        "id": 193,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 229,
-        "sourceUnit": 550,
+        "scope": 239,
+        "sourceUnit": 560,
         "src": "58:37:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -632,11 +632,11 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/SponsorWhitelistControl.sol",
         "file": "./SponsorWhitelistControl.sol",
-        "id": 184,
+        "id": 194,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 229,
-        "sourceUnit": 456,
+        "scope": 239,
+        "sourceUnit": 466,
         "src": "96:39:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -644,11 +644,11 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/AdminControl.sol",
         "file": "./AdminControl.sol",
-        "id": 185,
+        "id": 195,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 229,
-        "sourceUnit": 160,
+        "scope": 239,
+        "sourceUnit": 170,
         "src": "136:28:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -656,11 +656,11 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/InternalContractsLib.sol",
         "file": "./InternalContractsLib.sol",
-        "id": 186,
+        "id": 196,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 229,
-        "sourceUnit": 273,
+        "scope": 239,
+        "sourceUnit": 283,
         "src": "165:36:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -670,13 +670,13 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 188,
+              "id": 198,
               "name": "ERC1820Context",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 549,
+              "referencedDeclaration": 559,
               "src": "329:14:4"
             },
-            "id": 189,
+            "id": 199,
             "nodeType": "InheritanceSpecifier",
             "src": "329:14:4"
           }
@@ -684,16 +684,16 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 187,
+          "id": 197,
           "nodeType": "StructuredDocumentation",
           "src": "203:79:4",
           "text": " @dev Provides default configurations for Conflux internal contracts."
         },
         "fullyImplemented": true,
-        "id": 228,
+        "id": 238,
         "linearizedBaseContracts": [
-          228,
-          549
+          238,
+          559
         ],
         "name": "InternalContractsHandler",
         "nameLocation": "301:24:4",
@@ -701,13 +701,13 @@
         "nodes": [
           {
             "body": {
-              "id": 226,
+              "id": 236,
               "nodeType": "Block",
               "src": "364:495:4",
               "statements": [
                 {
                   "condition": {
-                    "id": 194,
+                    "id": 204,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -720,18 +720,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 192,
+                        "id": 202,
                         "name": "_isCfxChain",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 528,
+                        "referencedDeclaration": 538,
                         "src": "379:11:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
                           "typeString": "function () view returns (bool)"
                         }
                       },
-                      "id": 193,
+                      "id": 203,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -751,17 +751,17 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 197,
+                  "id": 207,
                   "nodeType": "IfStatement",
                   "src": "374:51:4",
                   "trueBody": {
-                    "id": 196,
+                    "id": 206,
                     "nodeType": "Block",
                     "src": "394:31:4",
                     "statements": [
                       {
-                        "functionReturnParameters": 191,
-                        "id": 195,
+                        "functionReturnParameters": 201,
+                        "id": 205,
                         "nodeType": "Return",
                         "src": "408:7:4"
                       }
@@ -770,17 +770,17 @@
                 },
                 {
                   "assignments": [
-                    202
+                    212
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 202,
+                      "id": 212,
                       "mutability": "mutable",
                       "name": "users",
                       "nameLocation": "504:5:4",
                       "nodeType": "VariableDeclaration",
-                      "scope": 226,
+                      "scope": 236,
                       "src": "487:22:4",
                       "stateVariable": false,
                       "storageLocation": "memory",
@@ -790,7 +790,7 @@
                       },
                       "typeName": {
                         "baseType": {
-                          "id": 200,
+                          "id": 210,
                           "name": "address",
                           "nodeType": "ElementaryTypeName",
                           "src": "487:7:4",
@@ -799,7 +799,7 @@
                             "typeString": "address"
                           }
                         },
-                        "id": 201,
+                        "id": 211,
                         "nodeType": "ArrayTypeName",
                         "src": "487:9:4",
                         "typeDescriptions": {
@@ -810,12 +810,12 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 208,
+                  "id": 218,
                   "initialValue": {
                     "arguments": [
                       {
                         "hexValue": "31",
-                        "id": 206,
+                        "id": 216,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -837,7 +837,7 @@
                           "typeString": "int_const 1"
                         }
                       ],
-                      "id": 205,
+                      "id": 215,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -850,7 +850,7 @@
                       },
                       "typeName": {
                         "baseType": {
-                          "id": 203,
+                          "id": 213,
                           "name": "address",
                           "nodeType": "ElementaryTypeName",
                           "src": "516:7:4",
@@ -860,7 +860,7 @@
                             "typeString": "address"
                           }
                         },
-                        "id": 204,
+                        "id": 214,
                         "nodeType": "ArrayTypeName",
                         "src": "516:9:4",
                         "typeDescriptions": {
@@ -869,7 +869,7 @@
                         }
                       }
                     },
-                    "id": 207,
+                    "id": 217,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -889,28 +889,28 @@
                 },
                 {
                   "expression": {
-                    "id": 216,
+                    "id": 226,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "baseExpression": {
-                        "id": 209,
+                        "id": 219,
                         "name": "users",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 202,
+                        "referencedDeclaration": 212,
                         "src": "538:5:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
                           "typeString": "address[] memory"
                         }
                       },
-                      "id": 211,
+                      "id": 221,
                       "indexExpression": {
                         "hexValue": "30",
-                        "id": 210,
+                        "id": 220,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -941,7 +941,7 @@
                       "arguments": [
                         {
                           "hexValue": "30",
-                          "id": 214,
+                          "id": 224,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -963,7 +963,7 @@
                             "typeString": "int_const 0"
                           }
                         ],
-                        "id": 213,
+                        "id": 223,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -975,14 +975,14 @@
                           "typeString": "type(address)"
                         },
                         "typeName": {
-                          "id": 212,
+                          "id": 222,
                           "name": "address",
                           "nodeType": "ElementaryTypeName",
                           "src": "549:7:4",
                           "typeDescriptions": {}
                         }
                       },
-                      "id": 215,
+                      "id": 225,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -1003,7 +1003,7 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 217,
+                  "id": 227,
                   "nodeType": "ExpressionStatement",
                   "src": "538:21:4"
                 },
@@ -1011,11 +1011,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 223,
+                        "id": 233,
                         "name": "users",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 202,
+                        "referencedDeclaration": 212,
                         "src": "616:5:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
@@ -1032,46 +1032,46 @@
                       ],
                       "expression": {
                         "expression": {
-                          "id": 218,
+                          "id": 228,
                           "name": "InternalContracts",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 272,
+                          "referencedDeclaration": 282,
                           "src": "569:17:4",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_InternalContracts_$272_$",
+                            "typeIdentifier": "t_type$_t_contract$_InternalContracts_$282_$",
                             "typeString": "type(library InternalContracts)"
                           }
                         },
-                        "id": 221,
+                        "id": 231,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "SPONSOR_CONTROL",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 250,
+                        "referencedDeclaration": 260,
                         "src": "569:33:4",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_SponsorWhitelistControl_$455",
+                          "typeIdentifier": "t_contract$_SponsorWhitelistControl_$465",
                           "typeString": "contract SponsorWhitelistControl"
                         }
                       },
-                      "id": 222,
+                      "id": 232,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "addPrivilege",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 448,
+                      "referencedDeclaration": 458,
                       "src": "569:46:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_array$_t_address_$dyn_memory_ptr_$returns$__$",
                         "typeString": "function (address[] memory) external"
                       }
                     },
-                    "id": 224,
+                    "id": 234,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1086,13 +1086,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 225,
+                  "id": 235,
                   "nodeType": "ExpressionStatement",
                   "src": "569:53:4"
                 }
               ]
             },
-            "id": 227,
+            "id": 237,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -1100,25 +1100,25 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 190,
+              "id": 200,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "361:2:4"
             },
             "returnParameters": {
-              "id": 191,
+              "id": 201,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "364:0:4"
             },
-            "scope": 228,
+            "scope": 238,
             "src": "350:509:4",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
           }
         ],
-        "scope": 229,
+        "scope": 239,
         "src": "283:578:4",
         "usedErrors": []
       }
@@ -1131,7 +1131,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2022-04-29T12:07:55.065Z",
+  "updatedAt": "2022-04-30T01:49:21.019Z",
   "devdoc": {
     "details": "Provides default configurations for Conflux internal contracts.",
     "kind": "dev",

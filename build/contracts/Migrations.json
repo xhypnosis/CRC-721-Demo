@@ -12,8 +12,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -26,8 +25,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -2199,8 +2197,7 @@
     }
   },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2022-04-29T12:10:27.108Z",
-  "networkType": "conflux",
+  "updatedAt": "2022-04-30T01:49:20.868Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -66,15 +66,15 @@
     "absolutePath": "@confluxfans/contracts/InternalContracts/AdminControl.sol",
     "exportedSymbols": {
       "AdminControl": [
-        159
+        169
       ]
     },
-    "id": 160,
+    "id": 170,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 136,
+        "id": 146,
         "literals": [
           "solidity",
           ">=",
@@ -90,9 +90,9 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 159,
+        "id": 169,
         "linearizedBaseContracts": [
-          159
+          169
         ],
         "name": "AdminControl",
         "nameLocation": "69:12:2",
@@ -100,13 +100,13 @@
         "nodes": [
           {
             "documentation": {
-              "id": 137,
+              "id": 147,
               "nodeType": "StructuredDocumentation",
               "src": "118:114:2",
               "text": " @dev get admin of specific contract\n @param contractAddr The address of specific contract"
             },
             "functionSelector": "64efb22b",
-            "id": 144,
+            "id": 154,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -114,17 +114,17 @@
             "nameLocation": "246:8:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 140,
+              "id": 150,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 139,
+                  "id": 149,
                   "mutability": "mutable",
                   "name": "contractAddr",
                   "nameLocation": "263:12:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 144,
+                  "scope": 154,
                   "src": "255:20:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -133,7 +133,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 138,
+                    "id": 148,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "255:7:2",
@@ -149,17 +149,17 @@
               "src": "254:22:2"
             },
             "returnParameters": {
-              "id": 143,
+              "id": 153,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 142,
+                  "id": 152,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 144,
+                  "scope": 154,
                   "src": "300:7:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -168,7 +168,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 141,
+                    "id": 151,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "300:7:2",
@@ -183,7 +183,7 @@
               ],
               "src": "299:9:2"
             },
-            "scope": 159,
+            "scope": 169,
             "src": "237:72:2",
             "stateMutability": "view",
             "virtual": false,
@@ -191,13 +191,13 @@
           },
           {
             "documentation": {
-              "id": 145,
+              "id": 155,
               "nodeType": "StructuredDocumentation",
               "src": "315:202:2",
               "text": " @dev Contract admin set the administrator of contract `contractAddr` to `newAdmin`.\n @param contractAddr The address of the contract\n @param newAdmin The new admin address"
             },
             "functionSelector": "c55b6bb7",
-            "id": 152,
+            "id": 162,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -205,17 +205,17 @@
             "nameLocation": "531:8:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 150,
+              "id": 160,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 147,
+                  "id": 157,
                   "mutability": "mutable",
                   "name": "contractAddr",
                   "nameLocation": "548:12:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 152,
+                  "scope": 162,
                   "src": "540:20:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -224,7 +224,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 146,
+                    "id": 156,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "540:7:2",
@@ -238,12 +238,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 149,
+                  "id": 159,
                   "mutability": "mutable",
                   "name": "newAdmin",
                   "nameLocation": "570:8:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 152,
+                  "scope": 162,
                   "src": "562:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -252,7 +252,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 148,
+                    "id": 158,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "562:7:2",
@@ -268,12 +268,12 @@
               "src": "539:40:2"
             },
             "returnParameters": {
-              "id": 151,
+              "id": 161,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "588:0:2"
             },
-            "scope": 159,
+            "scope": 169,
             "src": "522:67:2",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -281,13 +281,13 @@
           },
           {
             "documentation": {
-              "id": 153,
+              "id": 163,
               "nodeType": "StructuredDocumentation",
               "src": "595:127:2",
               "text": " @dev Contract admin destroy contract `contractAddr`.\n @param contractAddr The contract to be destroied"
             },
             "functionSelector": "00f55d9d",
-            "id": 158,
+            "id": 168,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -295,17 +295,17 @@
             "nameLocation": "736:7:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 156,
+              "id": 166,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 155,
+                  "id": 165,
                   "mutability": "mutable",
                   "name": "contractAddr",
                   "nameLocation": "752:12:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 158,
+                  "scope": 168,
                   "src": "744:20:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -314,7 +314,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 154,
+                    "id": 164,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "744:7:2",
@@ -330,19 +330,19 @@
               "src": "743:22:2"
             },
             "returnParameters": {
-              "id": 157,
+              "id": 167,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "774:0:2"
             },
-            "scope": 159,
+            "scope": 169,
             "src": "727:48:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 160,
+        "scope": 170,
         "src": "59:718:2",
         "usedErrors": []
       }
@@ -353,15 +353,15 @@
     "absolutePath": "@confluxfans/contracts/InternalContracts/AdminControl.sol",
     "exportedSymbols": {
       "AdminControl": [
-        159
+        169
       ]
     },
-    "id": 160,
+    "id": 170,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 136,
+        "id": 146,
         "literals": [
           "solidity",
           ">=",
@@ -377,9 +377,9 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 159,
+        "id": 169,
         "linearizedBaseContracts": [
-          159
+          169
         ],
         "name": "AdminControl",
         "nameLocation": "69:12:2",
@@ -387,13 +387,13 @@
         "nodes": [
           {
             "documentation": {
-              "id": 137,
+              "id": 147,
               "nodeType": "StructuredDocumentation",
               "src": "118:114:2",
               "text": " @dev get admin of specific contract\n @param contractAddr The address of specific contract"
             },
             "functionSelector": "64efb22b",
-            "id": 144,
+            "id": 154,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -401,17 +401,17 @@
             "nameLocation": "246:8:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 140,
+              "id": 150,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 139,
+                  "id": 149,
                   "mutability": "mutable",
                   "name": "contractAddr",
                   "nameLocation": "263:12:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 144,
+                  "scope": 154,
                   "src": "255:20:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -420,7 +420,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 138,
+                    "id": 148,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "255:7:2",
@@ -436,17 +436,17 @@
               "src": "254:22:2"
             },
             "returnParameters": {
-              "id": 143,
+              "id": 153,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 142,
+                  "id": 152,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 144,
+                  "scope": 154,
                   "src": "300:7:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -455,7 +455,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 141,
+                    "id": 151,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "300:7:2",
@@ -470,7 +470,7 @@
               ],
               "src": "299:9:2"
             },
-            "scope": 159,
+            "scope": 169,
             "src": "237:72:2",
             "stateMutability": "view",
             "virtual": false,
@@ -478,13 +478,13 @@
           },
           {
             "documentation": {
-              "id": 145,
+              "id": 155,
               "nodeType": "StructuredDocumentation",
               "src": "315:202:2",
               "text": " @dev Contract admin set the administrator of contract `contractAddr` to `newAdmin`.\n @param contractAddr The address of the contract\n @param newAdmin The new admin address"
             },
             "functionSelector": "c55b6bb7",
-            "id": 152,
+            "id": 162,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -492,17 +492,17 @@
             "nameLocation": "531:8:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 150,
+              "id": 160,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 147,
+                  "id": 157,
                   "mutability": "mutable",
                   "name": "contractAddr",
                   "nameLocation": "548:12:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 152,
+                  "scope": 162,
                   "src": "540:20:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -511,7 +511,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 146,
+                    "id": 156,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "540:7:2",
@@ -525,12 +525,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 149,
+                  "id": 159,
                   "mutability": "mutable",
                   "name": "newAdmin",
                   "nameLocation": "570:8:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 152,
+                  "scope": 162,
                   "src": "562:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -539,7 +539,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 148,
+                    "id": 158,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "562:7:2",
@@ -555,12 +555,12 @@
               "src": "539:40:2"
             },
             "returnParameters": {
-              "id": 151,
+              "id": 161,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "588:0:2"
             },
-            "scope": 159,
+            "scope": 169,
             "src": "522:67:2",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -568,13 +568,13 @@
           },
           {
             "documentation": {
-              "id": 153,
+              "id": 163,
               "nodeType": "StructuredDocumentation",
               "src": "595:127:2",
               "text": " @dev Contract admin destroy contract `contractAddr`.\n @param contractAddr The contract to be destroied"
             },
             "functionSelector": "00f55d9d",
-            "id": 158,
+            "id": 168,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -582,17 +582,17 @@
             "nameLocation": "736:7:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 156,
+              "id": 166,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 155,
+                  "id": 165,
                   "mutability": "mutable",
                   "name": "contractAddr",
                   "nameLocation": "752:12:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 158,
+                  "scope": 168,
                   "src": "744:20:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -601,7 +601,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 154,
+                    "id": 164,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "744:7:2",
@@ -617,19 +617,19 @@
               "src": "743:22:2"
             },
             "returnParameters": {
-              "id": 157,
+              "id": 167,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "774:0:2"
             },
-            "scope": 159,
+            "scope": 169,
             "src": "727:48:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 160,
+        "scope": 170,
         "src": "59:718:2",
         "usedErrors": []
       }
@@ -642,7 +642,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2022-04-29T12:07:55.061Z",
+  "updatedAt": "2022-04-30T01:49:21.016Z",
   "devdoc": {
     "kind": "dev",
     "methods": {
