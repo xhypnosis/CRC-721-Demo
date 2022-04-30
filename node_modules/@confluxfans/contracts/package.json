@@ -1,0 +1,31 @@
+{
+  "name": "@confluxfans/contracts",
+  "description": "Common useful contracts in Conflux DAPP developments",
+  "version": "0.2.5",
+  "files": [
+    "**/*.sol",
+    "/build/contracts/*.json",
+    "!/mocks/**/*"
+  ],
+  "scripts": {
+    "prepare": "bash ../scripts/prepare-contracts-package.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conflux-fans/conflux-contracts.git"
+  },
+  "keywords": [
+    "solidity",
+    "smart",
+    "contracts",
+    "security"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conflux-fans/conflux-contracts/issues"
+  },
+  "homepage": "https://github.com/conflux-fans/conflux-contracts",
+  "dependencies": {
+    "@openzeppelin/contracts": "4.1.0"
+  }
+}
