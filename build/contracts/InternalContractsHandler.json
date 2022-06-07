@@ -1131,7 +1131,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2022-04-30T01:49:21.019Z",
+  "updatedAt": "2022-06-07T10:02:32.725Z",
   "devdoc": {
     "details": "Provides default configurations for Conflux internal contracts.",
     "kind": "dev",

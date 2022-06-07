@@ -1,3 +1,4 @@
+require("dotenv").config()
 /**
  * Use this file to configure your truffle project. It's seeded with some
  * common settings for different networks and features like migrations,
@@ -75,12 +76,12 @@ module.exports = {
     Tethys: {
         url: "https://main.confluxrpc.com",
         network_id: "1029",
-        privateKeys: ["0x6808b87b3b9902f19e84cc8cc89e59ae7d32f1350d4192ab6996b7862ab9b654"],
+        privateKeys: [process.env.PRIVATE_KEY],
     },
     Testnet: {
         url: "https://test.confluxrpc.com",
         network_id: "1",
-        privateKeys: ["0xc7269a24e07a208d4530e4e01aef9f451e92d75fcdc37e4c0ccdf602b00af3d3"],
+        privateKeys: [process.env.PRIVATE_KEY],
     },
   },
 

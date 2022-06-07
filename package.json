@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@confluxfans/contracts": "^0.2.5",
-    "@openzeppelin/contracts": "^4.6.0"
+    "@openzeppelin/contracts": "^4.6.0",
+    "dotenv": "^16.0.1"
   }
 }

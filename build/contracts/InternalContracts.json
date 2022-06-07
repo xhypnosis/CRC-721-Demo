@@ -2732,7 +2732,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2022-04-30T01:49:21.024Z",
+  "updatedAt": "2022-06-07T10:02:32.725Z",
   "devdoc": {
     "details": "This library includes initialized Internal Contract instance.",
     "kind": "dev",

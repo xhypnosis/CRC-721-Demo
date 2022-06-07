@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@confluxfans/contracts/InternalContracts/InternalContractsHandler.sol";
 
-contract MyToken is
+contract Demo721 is
   ERC721,
   ERC721URIStorage,
   Ownable,
@@ -19,7 +19,7 @@ contract MyToken is
 
   string private baseUri = "https://metadata.conflux.fun/metadata/test0.json";
 
-  constructor() ERC721("MyToken", "MTK") {}
+  constructor() ERC721("Demo721", "DM721") {}
 
   function setURI(string memory newuri) public onlyOwner {
     baseUri = newuri;
