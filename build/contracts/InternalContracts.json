@@ -222,7 +222,7 @@
                           }
                         ],
                         "functionName": {
-                          "name": "convert_t_contract$_PoSRegister_$362_to_t_address",
+                          "name": "convert_t_contract$_PoSRegister_$394_to_t_address",
                           "nodeType": "YulIdentifier",
                           "src": "495:49:23"
                         },
@@ -243,7 +243,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_contract$_PoSRegister_$362_to_t_address_fromStack_library",
+            "name": "abi_encode_t_contract$_PoSRegister_$394_to_t_address_fromStack_library",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -283,7 +283,7 @@
                           }
                         ],
                         "functionName": {
-                          "name": "convert_t_contract$_SponsorWhitelistControl_$465_to_t_address",
+                          "name": "convert_t_contract$_SponsorWhitelistControl_$497_to_t_address",
                           "nodeType": "YulIdentifier",
                           "src": "690:61:23"
                         },
@@ -304,7 +304,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_contract$_SponsorWhitelistControl_$465_to_t_address_fromStack_library",
+            "name": "abi_encode_t_contract$_SponsorWhitelistControl_$497_to_t_address_fromStack_library",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -344,7 +344,7 @@
                           }
                         ],
                         "functionName": {
-                          "name": "convert_t_contract$_Staking_$513_to_t_address",
+                          "name": "convert_t_contract$_Staking_$545_to_t_address",
                           "nodeType": "YulIdentifier",
                           "src": "881:45:23"
                         },
@@ -365,7 +365,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_contract$_Staking_$513_to_t_address_fromStack_library",
+            "name": "abi_encode_t_contract$_Staking_$545_to_t_address_fromStack_library",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -675,7 +675,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_contract$_PoSRegister_$362_to_t_address_fromStack_library",
+                      "name": "abi_encode_t_contract$_PoSRegister_$394_to_t_address_fromStack_library",
                       "nodeType": "YulIdentifier",
                       "src": "1689:70:23"
                     },
@@ -687,7 +687,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_contract$_PoSRegister_$362__to_t_address__fromStack_library_reversed",
+            "name": "abi_encode_tuple_t_contract$_PoSRegister_$394__to_t_address__fromStack_library_reversed",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -785,7 +785,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_contract$_SponsorWhitelistControl_$465_to_t_address_fromStack_library",
+                      "name": "abi_encode_t_contract$_SponsorWhitelistControl_$497_to_t_address_fromStack_library",
                       "nodeType": "YulIdentifier",
                       "src": "1983:82:23"
                     },
@@ -797,7 +797,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_contract$_SponsorWhitelistControl_$465__to_t_address__fromStack_library_reversed",
+            "name": "abi_encode_tuple_t_contract$_SponsorWhitelistControl_$497__to_t_address__fromStack_library_reversed",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -895,7 +895,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_contract$_Staking_$513_to_t_address_fromStack_library",
+                      "name": "abi_encode_t_contract$_Staking_$545_to_t_address_fromStack_library",
                       "nodeType": "YulIdentifier",
                       "src": "2273:66:23"
                     },
@@ -907,7 +907,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_contract$_Staking_$513__to_t_address__fromStack_library_reversed",
+            "name": "abi_encode_tuple_t_contract$_Staking_$545__to_t_address__fromStack_library_reversed",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -1227,7 +1227,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "convert_t_contract$_PoSRegister_$362_to_t_uint160",
+                      "name": "convert_t_contract$_PoSRegister_$394_to_t_uint160",
                       "nodeType": "YulIdentifier",
                       "src": "3242:49:23"
                     },
@@ -1244,7 +1244,7 @@
                 }
               ]
             },
-            "name": "convert_t_contract$_PoSRegister_$362_to_t_address",
+            "name": "convert_t_contract$_PoSRegister_$394_to_t_address",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -1298,7 +1298,7 @@
                 }
               ]
             },
-            "name": "convert_t_contract$_PoSRegister_$362_to_t_uint160",
+            "name": "convert_t_contract$_PoSRegister_$394_to_t_uint160",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -1335,7 +1335,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "convert_t_contract$_SponsorWhitelistControl_$465_to_t_uint160",
+                      "name": "convert_t_contract$_SponsorWhitelistControl_$497_to_t_uint160",
                       "nodeType": "YulIdentifier",
                       "src": "3562:61:23"
                     },
@@ -1352,7 +1352,7 @@
                 }
               ]
             },
-            "name": "convert_t_contract$_SponsorWhitelistControl_$465_to_t_address",
+            "name": "convert_t_contract$_SponsorWhitelistControl_$497_to_t_address",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -1406,7 +1406,7 @@
                 }
               ]
             },
-            "name": "convert_t_contract$_SponsorWhitelistControl_$465_to_t_uint160",
+            "name": "convert_t_contract$_SponsorWhitelistControl_$497_to_t_uint160",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -1443,7 +1443,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "convert_t_contract$_Staking_$513_to_t_uint160",
+                      "name": "convert_t_contract$_Staking_$545_to_t_uint160",
                       "nodeType": "YulIdentifier",
                       "src": "3890:45:23"
                     },
@@ -1460,7 +1460,7 @@
                 }
               ]
             },
-            "name": "convert_t_contract$_Staking_$513_to_t_address",
+            "name": "convert_t_contract$_Staking_$545_to_t_address",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -1514,7 +1514,7 @@
                 }
               ]
             },
-            "name": "convert_t_contract$_Staking_$513_to_t_uint160",
+            "name": "convert_t_contract$_Staking_$545_to_t_uint160",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -1536,7 +1536,7 @@
           }
         ]
       },
-      "contents": "{\n\n    function abi_encode_t_contract$_AdminControl_$169_to_t_address_fromStack_library(value, pos) {\n        mstore(pos, convert_t_contract$_AdminControl_$169_to_t_address(value))\n    }\n\n    function abi_encode_t_contract$_ConfluxContext_$190_to_t_address_fromStack_library(value, pos) {\n        mstore(pos, convert_t_contract$_ConfluxContext_$190_to_t_address(value))\n    }\n\n    function abi_encode_t_contract$_PoSRegister_$362_to_t_address_fromStack_library(value, pos) {\n        mstore(pos, convert_t_contract$_PoSRegister_$362_to_t_address(value))\n    }\n\n    function abi_encode_t_contract$_SponsorWhitelistControl_$465_to_t_address_fromStack_library(value, pos) {\n        mstore(pos, convert_t_contract$_SponsorWhitelistControl_$465_to_t_address(value))\n    }\n\n    function abi_encode_t_contract$_Staking_$513_to_t_address_fromStack_library(value, pos) {\n        mstore(pos, convert_t_contract$_Staking_$513_to_t_address(value))\n    }\n\n    function abi_encode_tuple_t_contract$_AdminControl_$169__to_t_address__fromStack_library_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_contract$_AdminControl_$169_to_t_address_fromStack_library(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_contract$_ConfluxContext_$190__to_t_address__fromStack_library_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_contract$_ConfluxContext_$190_to_t_address_fromStack_library(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_contract$_PoSRegister_$362__to_t_address__fromStack_library_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_contract$_PoSRegister_$362_to_t_address_fromStack_library(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_contract$_SponsorWhitelistControl_$465__to_t_address__fromStack_library_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_contract$_SponsorWhitelistControl_$465_to_t_address_fromStack_library(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_contract$_Staking_$513__to_t_address__fromStack_library_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_contract$_Staking_$513_to_t_address_fromStack_library(value0,  add(headStart, 0))\n\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function convert_t_contract$_AdminControl_$169_to_t_address(value) -> converted {\n        converted := convert_t_contract$_AdminControl_$169_to_t_uint160(value)\n    }\n\n    function convert_t_contract$_AdminControl_$169_to_t_uint160(value) -> converted {\n        converted := cleanup_t_uint160(value)\n    }\n\n    function convert_t_contract$_ConfluxContext_$190_to_t_address(value) -> converted {\n        converted := convert_t_contract$_ConfluxContext_$190_to_t_uint160(value)\n    }\n\n    function convert_t_contract$_ConfluxContext_$190_to_t_uint160(value) -> converted {\n        converted := cleanup_t_uint160(value)\n    }\n\n    function convert_t_contract$_PoSRegister_$362_to_t_address(value) -> converted {\n        converted := convert_t_contract$_PoSRegister_$362_to_t_uint160(value)\n    }\n\n    function convert_t_contract$_PoSRegister_$362_to_t_uint160(value) -> converted {\n        converted := cleanup_t_uint160(value)\n    }\n\n    function convert_t_contract$_SponsorWhitelistControl_$465_to_t_address(value) -> converted {\n        converted := convert_t_contract$_SponsorWhitelistControl_$465_to_t_uint160(value)\n    }\n\n    function convert_t_contract$_SponsorWhitelistControl_$465_to_t_uint160(value) -> converted {\n        converted := cleanup_t_uint160(value)\n    }\n\n    function convert_t_contract$_Staking_$513_to_t_address(value) -> converted {\n        converted := convert_t_contract$_Staking_$513_to_t_uint160(value)\n    }\n\n    function convert_t_contract$_Staking_$513_to_t_uint160(value) -> converted {\n        converted := cleanup_t_uint160(value)\n    }\n\n}\n",
+      "contents": "{\n\n    function abi_encode_t_contract$_AdminControl_$169_to_t_address_fromStack_library(value, pos) {\n        mstore(pos, convert_t_contract$_AdminControl_$169_to_t_address(value))\n    }\n\n    function abi_encode_t_contract$_ConfluxContext_$190_to_t_address_fromStack_library(value, pos) {\n        mstore(pos, convert_t_contract$_ConfluxContext_$190_to_t_address(value))\n    }\n\n    function abi_encode_t_contract$_PoSRegister_$394_to_t_address_fromStack_library(value, pos) {\n        mstore(pos, convert_t_contract$_PoSRegister_$394_to_t_address(value))\n    }\n\n    function abi_encode_t_contract$_SponsorWhitelistControl_$497_to_t_address_fromStack_library(value, pos) {\n        mstore(pos, convert_t_contract$_SponsorWhitelistControl_$497_to_t_address(value))\n    }\n\n    function abi_encode_t_contract$_Staking_$545_to_t_address_fromStack_library(value, pos) {\n        mstore(pos, convert_t_contract$_Staking_$545_to_t_address(value))\n    }\n\n    function abi_encode_tuple_t_contract$_AdminControl_$169__to_t_address__fromStack_library_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_contract$_AdminControl_$169_to_t_address_fromStack_library(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_contract$_ConfluxContext_$190__to_t_address__fromStack_library_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_contract$_ConfluxContext_$190_to_t_address_fromStack_library(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_contract$_PoSRegister_$394__to_t_address__fromStack_library_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_contract$_PoSRegister_$394_to_t_address_fromStack_library(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_contract$_SponsorWhitelistControl_$497__to_t_address__fromStack_library_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_contract$_SponsorWhitelistControl_$497_to_t_address_fromStack_library(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_contract$_Staking_$545__to_t_address__fromStack_library_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_contract$_Staking_$545_to_t_address_fromStack_library(value0,  add(headStart, 0))\n\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function convert_t_contract$_AdminControl_$169_to_t_address(value) -> converted {\n        converted := convert_t_contract$_AdminControl_$169_to_t_uint160(value)\n    }\n\n    function convert_t_contract$_AdminControl_$169_to_t_uint160(value) -> converted {\n        converted := cleanup_t_uint160(value)\n    }\n\n    function convert_t_contract$_ConfluxContext_$190_to_t_address(value) -> converted {\n        converted := convert_t_contract$_ConfluxContext_$190_to_t_uint160(value)\n    }\n\n    function convert_t_contract$_ConfluxContext_$190_to_t_uint160(value) -> converted {\n        converted := cleanup_t_uint160(value)\n    }\n\n    function convert_t_contract$_PoSRegister_$394_to_t_address(value) -> converted {\n        converted := convert_t_contract$_PoSRegister_$394_to_t_uint160(value)\n    }\n\n    function convert_t_contract$_PoSRegister_$394_to_t_uint160(value) -> converted {\n        converted := cleanup_t_uint160(value)\n    }\n\n    function convert_t_contract$_SponsorWhitelistControl_$497_to_t_address(value) -> converted {\n        converted := convert_t_contract$_SponsorWhitelistControl_$497_to_t_uint160(value)\n    }\n\n    function convert_t_contract$_SponsorWhitelistControl_$497_to_t_uint160(value) -> converted {\n        converted := cleanup_t_uint160(value)\n    }\n\n    function convert_t_contract$_Staking_$545_to_t_address(value) -> converted {\n        converted := convert_t_contract$_Staking_$545_to_t_uint160(value)\n    }\n\n    function convert_t_contract$_Staking_$545_to_t_uint160(value) -> converted {\n        converted := cleanup_t_uint160(value)\n    }\n\n}\n",
       "id": 23,
       "language": "Yul",
       "name": "#utility.yul"
@@ -1556,24 +1556,24 @@
         190
       ],
       "InternalContracts": [
-        282
+        314
       ],
       "PoSRegister": [
-        362
+        394
       ],
       "SponsorWhitelistControl": [
-        465
+        497
       ],
       "Staking": [
-        513
+        545
       ]
     },
-    "id": 283,
+    "id": 315,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 240,
+        "id": 272,
         "literals": [
           "solidity",
           "^",
@@ -1586,10 +1586,10 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/AdminControl.sol",
         "file": "./AdminControl.sol",
-        "id": 241,
+        "id": 273,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 283,
+        "scope": 315,
         "sourceUnit": 170,
         "src": "58:28:5",
         "symbolAliases": [],
@@ -1598,11 +1598,11 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/SponsorWhitelistControl.sol",
         "file": "./SponsorWhitelistControl.sol",
-        "id": 242,
+        "id": 274,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 283,
-        "sourceUnit": 466,
+        "scope": 315,
+        "sourceUnit": 498,
         "src": "87:39:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1610,11 +1610,11 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/Staking.sol",
         "file": "./Staking.sol",
-        "id": 243,
+        "id": 275,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 283,
-        "sourceUnit": 514,
+        "scope": 315,
+        "sourceUnit": 546,
         "src": "127:23:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1622,10 +1622,10 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/ConfluxContext.sol",
         "file": "./ConfluxContext.sol",
-        "id": 244,
+        "id": 276,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 283,
+        "scope": 315,
         "sourceUnit": 191,
         "src": "151:30:5",
         "symbolAliases": [],
@@ -1634,11 +1634,11 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/PoSRegister.sol",
         "file": "./PoSRegister.sol",
-        "id": 245,
+        "id": 277,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 283,
-        "sourceUnit": 363,
+        "scope": 315,
+        "sourceUnit": 395,
         "src": "182:27:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1649,15 +1649,15 @@
         "contractDependencies": [],
         "contractKind": "library",
         "documentation": {
-          "id": 246,
+          "id": 278,
           "nodeType": "StructuredDocumentation",
           "src": "211:77:5",
           "text": " @dev This library includes initialized Internal Contract instance."
         },
         "fullyImplemented": true,
-        "id": 282,
+        "id": 314,
         "linearizedBaseContracts": [
-          282
+          314
         ],
         "name": "InternalContracts",
         "nameLocation": "297:17:5",
@@ -1666,18 +1666,18 @@
           {
             "constant": true,
             "documentation": {
-              "id": 247,
+              "id": 279,
               "nodeType": "StructuredDocumentation",
               "src": "321:36:5",
               "text": " @dev adminControl"
             },
             "functionSelector": "c785cedf",
-            "id": 253,
+            "id": 285,
             "mutability": "constant",
             "name": "ADMIN_CONTROL",
             "nameLocation": "391:13:5",
             "nodeType": "VariableDeclaration",
-            "scope": 282,
+            "scope": 314,
             "src": "362:101:5",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1686,10 +1686,10 @@
               "typeString": "contract AdminControl"
             },
             "typeName": {
-              "id": 249,
+              "id": 281,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 248,
+                "id": 280,
                 "name": "AdminControl",
                 "nodeType": "IdentifierPath",
                 "referencedDeclaration": 169,
@@ -1706,7 +1706,7 @@
               "arguments": [
                 {
                   "hexValue": "307830383838303030303030303030303030303030303030303030303030303030303030303030303030",
-                  "id": 251,
+                  "id": 283,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -1728,7 +1728,7 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 250,
+                "id": 282,
                 "name": "AdminControl",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
@@ -1739,7 +1739,7 @@
                   "typeString": "type(contract AdminControl)"
                 }
               },
-              "id": 252,
+              "id": 284,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -1759,39 +1759,39 @@
           {
             "constant": true,
             "documentation": {
-              "id": 254,
+              "id": 286,
               "nodeType": "StructuredDocumentation",
               "src": "470:38:5",
               "text": " @dev sponsorControl"
             },
             "functionSelector": "7b0e2081",
-            "id": 260,
+            "id": 292,
             "mutability": "constant",
             "name": "SPONSOR_CONTROL",
             "nameLocation": "553:15:5",
             "nodeType": "VariableDeclaration",
-            "scope": 282,
+            "scope": 314,
             "src": "513:133:5",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_SponsorWhitelistControl_$465",
+              "typeIdentifier": "t_contract$_SponsorWhitelistControl_$497",
               "typeString": "contract SponsorWhitelistControl"
             },
             "typeName": {
-              "id": 256,
+              "id": 288,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 255,
+                "id": 287,
                 "name": "SponsorWhitelistControl",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 465,
+                "referencedDeclaration": 497,
                 "src": "513:23:5"
               },
-              "referencedDeclaration": 465,
+              "referencedDeclaration": 497,
               "src": "513:23:5",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SponsorWhitelistControl_$465",
+                "typeIdentifier": "t_contract$_SponsorWhitelistControl_$497",
                 "typeString": "contract SponsorWhitelistControl"
               }
             },
@@ -1799,7 +1799,7 @@
               "arguments": [
                 {
                   "hexValue": "307830383838303030303030303030303030303030303030303030303030303030303030303030303031",
-                  "id": 258,
+                  "id": 290,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -1821,18 +1821,18 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 257,
+                "id": 289,
                 "name": "SponsorWhitelistControl",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 465,
+                "referencedDeclaration": 497,
                 "src": "579:23:5",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_contract$_SponsorWhitelistControl_$465_$",
+                  "typeIdentifier": "t_type$_t_contract$_SponsorWhitelistControl_$497_$",
                   "typeString": "type(contract SponsorWhitelistControl)"
                 }
               },
-              "id": 259,
+              "id": 291,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -1843,7 +1843,7 @@
               "src": "579:67:5",
               "tryCall": false,
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SponsorWhitelistControl_$465",
+                "typeIdentifier": "t_contract$_SponsorWhitelistControl_$497",
                 "typeString": "contract SponsorWhitelistControl"
               }
             },
@@ -1852,39 +1852,39 @@
           {
             "constant": true,
             "documentation": {
-              "id": 261,
+              "id": 293,
               "nodeType": "StructuredDocumentation",
               "src": "653:31:5",
               "text": " @dev staking"
             },
             "functionSelector": "97610f30",
-            "id": 267,
+            "id": 299,
             "mutability": "constant",
             "name": "STAKING",
             "nameLocation": "713:7:5",
             "nodeType": "VariableDeclaration",
-            "scope": 282,
+            "scope": 314,
             "src": "689:85:5",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Staking_$513",
+              "typeIdentifier": "t_contract$_Staking_$545",
               "typeString": "contract Staking"
             },
             "typeName": {
-              "id": 263,
+              "id": 295,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 262,
+                "id": 294,
                 "name": "Staking",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 513,
+                "referencedDeclaration": 545,
                 "src": "689:7:5"
               },
-              "referencedDeclaration": 513,
+              "referencedDeclaration": 545,
               "src": "689:7:5",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Staking_$513",
+                "typeIdentifier": "t_contract$_Staking_$545",
                 "typeString": "contract Staking"
               }
             },
@@ -1892,7 +1892,7 @@
               "arguments": [
                 {
                   "hexValue": "307830383838303030303030303030303030303030303030303030303030303030303030303030303032",
-                  "id": 265,
+                  "id": 297,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -1914,18 +1914,18 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 264,
+                "id": 296,
                 "name": "Staking",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 513,
+                "referencedDeclaration": 545,
                 "src": "723:7:5",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_contract$_Staking_$513_$",
+                  "typeIdentifier": "t_type$_t_contract$_Staking_$545_$",
                   "typeString": "type(contract Staking)"
                 }
               },
-              "id": 266,
+              "id": 298,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -1936,7 +1936,7 @@
               "src": "723:51:5",
               "tryCall": false,
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Staking_$513",
+                "typeIdentifier": "t_contract$_Staking_$545",
                 "typeString": "contract Staking"
               }
             },
@@ -1945,18 +1945,18 @@
           {
             "constant": true,
             "documentation": {
-              "id": 268,
+              "id": 300,
               "nodeType": "StructuredDocumentation",
               "src": "781:38:5",
               "text": " @dev ConfluxContext"
             },
             "functionSelector": "5ddd094f",
-            "id": 274,
+            "id": 306,
             "mutability": "constant",
             "name": "CONFLUX_CONTEXT",
             "nameLocation": "855:15:5",
             "nodeType": "VariableDeclaration",
-            "scope": 282,
+            "scope": 314,
             "src": "824:107:5",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1965,10 +1965,10 @@
               "typeString": "contract ConfluxContext"
             },
             "typeName": {
-              "id": 270,
+              "id": 302,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 269,
+                "id": 301,
                 "name": "ConfluxContext",
                 "nodeType": "IdentifierPath",
                 "referencedDeclaration": 190,
@@ -1985,7 +1985,7 @@
               "arguments": [
                 {
                   "hexValue": "307830383838303030303030303030303030303030303030303030303030303030303030303030303034",
-                  "id": 272,
+                  "id": 304,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -2007,7 +2007,7 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 271,
+                "id": 303,
                 "name": "ConfluxContext",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
@@ -2018,7 +2018,7 @@
                   "typeString": "type(contract ConfluxContext)"
                 }
               },
-              "id": 273,
+              "id": 305,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -2038,39 +2038,39 @@
           {
             "constant": true,
             "documentation": {
-              "id": 275,
+              "id": 307,
               "nodeType": "StructuredDocumentation",
               "src": "938:35:5",
               "text": " @dev PoSRegister"
             },
             "functionSelector": "040a000e",
-            "id": 281,
+            "id": 313,
             "mutability": "constant",
             "name": "POS_REGISTER",
             "nameLocation": "1006:12:5",
             "nodeType": "VariableDeclaration",
-            "scope": 282,
+            "scope": 314,
             "src": "978:98:5",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_PoSRegister_$362",
+              "typeIdentifier": "t_contract$_PoSRegister_$394",
               "typeString": "contract PoSRegister"
             },
             "typeName": {
-              "id": 277,
+              "id": 309,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 276,
+                "id": 308,
                 "name": "PoSRegister",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 362,
+                "referencedDeclaration": 394,
                 "src": "978:11:5"
               },
-              "referencedDeclaration": 362,
+              "referencedDeclaration": 394,
               "src": "978:11:5",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_PoSRegister_$362",
+                "typeIdentifier": "t_contract$_PoSRegister_$394",
                 "typeString": "contract PoSRegister"
               }
             },
@@ -2078,7 +2078,7 @@
               "arguments": [
                 {
                   "hexValue": "307830383838303030303030303030303030303030303030303030303030303030303030303030303035",
-                  "id": 279,
+                  "id": 311,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -2100,18 +2100,18 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 278,
+                "id": 310,
                 "name": "PoSRegister",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 362,
+                "referencedDeclaration": 394,
                 "src": "1021:11:5",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_contract$_PoSRegister_$362_$",
+                  "typeIdentifier": "t_type$_t_contract$_PoSRegister_$394_$",
                   "typeString": "type(contract PoSRegister)"
                 }
               },
-              "id": 280,
+              "id": 312,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -2122,14 +2122,14 @@
               "src": "1021:55:5",
               "tryCall": false,
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_PoSRegister_$362",
+                "typeIdentifier": "t_contract$_PoSRegister_$394",
                 "typeString": "contract PoSRegister"
               }
             },
             "visibility": "public"
           }
         ],
-        "scope": 283,
+        "scope": 315,
         "src": "289:790:5",
         "usedErrors": []
       }
@@ -2146,24 +2146,24 @@
         190
       ],
       "InternalContracts": [
-        282
+        314
       ],
       "PoSRegister": [
-        362
+        394
       ],
       "SponsorWhitelistControl": [
-        465
+        497
       ],
       "Staking": [
-        513
+        545
       ]
     },
-    "id": 283,
+    "id": 315,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 240,
+        "id": 272,
         "literals": [
           "solidity",
           "^",
@@ -2176,10 +2176,10 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/AdminControl.sol",
         "file": "./AdminControl.sol",
-        "id": 241,
+        "id": 273,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 283,
+        "scope": 315,
         "sourceUnit": 170,
         "src": "58:28:5",
         "symbolAliases": [],
@@ -2188,11 +2188,11 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/SponsorWhitelistControl.sol",
         "file": "./SponsorWhitelistControl.sol",
-        "id": 242,
+        "id": 274,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 283,
-        "sourceUnit": 466,
+        "scope": 315,
+        "sourceUnit": 498,
         "src": "87:39:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2200,11 +2200,11 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/Staking.sol",
         "file": "./Staking.sol",
-        "id": 243,
+        "id": 275,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 283,
-        "sourceUnit": 514,
+        "scope": 315,
+        "sourceUnit": 546,
         "src": "127:23:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2212,10 +2212,10 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/ConfluxContext.sol",
         "file": "./ConfluxContext.sol",
-        "id": 244,
+        "id": 276,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 283,
+        "scope": 315,
         "sourceUnit": 191,
         "src": "151:30:5",
         "symbolAliases": [],
@@ -2224,11 +2224,11 @@
       {
         "absolutePath": "@confluxfans/contracts/InternalContracts/PoSRegister.sol",
         "file": "./PoSRegister.sol",
-        "id": 245,
+        "id": 277,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 283,
-        "sourceUnit": 363,
+        "scope": 315,
+        "sourceUnit": 395,
         "src": "182:27:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2239,15 +2239,15 @@
         "contractDependencies": [],
         "contractKind": "library",
         "documentation": {
-          "id": 246,
+          "id": 278,
           "nodeType": "StructuredDocumentation",
           "src": "211:77:5",
           "text": " @dev This library includes initialized Internal Contract instance."
         },
         "fullyImplemented": true,
-        "id": 282,
+        "id": 314,
         "linearizedBaseContracts": [
-          282
+          314
         ],
         "name": "InternalContracts",
         "nameLocation": "297:17:5",
@@ -2256,18 +2256,18 @@
           {
             "constant": true,
             "documentation": {
-              "id": 247,
+              "id": 279,
               "nodeType": "StructuredDocumentation",
               "src": "321:36:5",
               "text": " @dev adminControl"
             },
             "functionSelector": "c785cedf",
-            "id": 253,
+            "id": 285,
             "mutability": "constant",
             "name": "ADMIN_CONTROL",
             "nameLocation": "391:13:5",
             "nodeType": "VariableDeclaration",
-            "scope": 282,
+            "scope": 314,
             "src": "362:101:5",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2276,10 +2276,10 @@
               "typeString": "contract AdminControl"
             },
             "typeName": {
-              "id": 249,
+              "id": 281,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 248,
+                "id": 280,
                 "name": "AdminControl",
                 "nodeType": "IdentifierPath",
                 "referencedDeclaration": 169,
@@ -2296,7 +2296,7 @@
               "arguments": [
                 {
                   "hexValue": "307830383838303030303030303030303030303030303030303030303030303030303030303030303030",
-                  "id": 251,
+                  "id": 283,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -2318,7 +2318,7 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 250,
+                "id": 282,
                 "name": "AdminControl",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
@@ -2329,7 +2329,7 @@
                   "typeString": "type(contract AdminControl)"
                 }
               },
-              "id": 252,
+              "id": 284,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -2349,39 +2349,39 @@
           {
             "constant": true,
             "documentation": {
-              "id": 254,
+              "id": 286,
               "nodeType": "StructuredDocumentation",
               "src": "470:38:5",
               "text": " @dev sponsorControl"
             },
             "functionSelector": "7b0e2081",
-            "id": 260,
+            "id": 292,
             "mutability": "constant",
             "name": "SPONSOR_CONTROL",
             "nameLocation": "553:15:5",
             "nodeType": "VariableDeclaration",
-            "scope": 282,
+            "scope": 314,
             "src": "513:133:5",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_SponsorWhitelistControl_$465",
+              "typeIdentifier": "t_contract$_SponsorWhitelistControl_$497",
               "typeString": "contract SponsorWhitelistControl"
             },
             "typeName": {
-              "id": 256,
+              "id": 288,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 255,
+                "id": 287,
                 "name": "SponsorWhitelistControl",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 465,
+                "referencedDeclaration": 497,
                 "src": "513:23:5"
               },
-              "referencedDeclaration": 465,
+              "referencedDeclaration": 497,
               "src": "513:23:5",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SponsorWhitelistControl_$465",
+                "typeIdentifier": "t_contract$_SponsorWhitelistControl_$497",
                 "typeString": "contract SponsorWhitelistControl"
               }
             },
@@ -2389,7 +2389,7 @@
               "arguments": [
                 {
                   "hexValue": "307830383838303030303030303030303030303030303030303030303030303030303030303030303031",
-                  "id": 258,
+                  "id": 290,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -2411,18 +2411,18 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 257,
+                "id": 289,
                 "name": "SponsorWhitelistControl",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 465,
+                "referencedDeclaration": 497,
                 "src": "579:23:5",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_contract$_SponsorWhitelistControl_$465_$",
+                  "typeIdentifier": "t_type$_t_contract$_SponsorWhitelistControl_$497_$",
                   "typeString": "type(contract SponsorWhitelistControl)"
                 }
               },
-              "id": 259,
+              "id": 291,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -2433,7 +2433,7 @@
               "src": "579:67:5",
               "tryCall": false,
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SponsorWhitelistControl_$465",
+                "typeIdentifier": "t_contract$_SponsorWhitelistControl_$497",
                 "typeString": "contract SponsorWhitelistControl"
               }
             },
@@ -2442,39 +2442,39 @@
           {
             "constant": true,
             "documentation": {
-              "id": 261,
+              "id": 293,
               "nodeType": "StructuredDocumentation",
               "src": "653:31:5",
               "text": " @dev staking"
             },
             "functionSelector": "97610f30",
-            "id": 267,
+            "id": 299,
             "mutability": "constant",
             "name": "STAKING",
             "nameLocation": "713:7:5",
             "nodeType": "VariableDeclaration",
-            "scope": 282,
+            "scope": 314,
             "src": "689:85:5",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Staking_$513",
+              "typeIdentifier": "t_contract$_Staking_$545",
               "typeString": "contract Staking"
             },
             "typeName": {
-              "id": 263,
+              "id": 295,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 262,
+                "id": 294,
                 "name": "Staking",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 513,
+                "referencedDeclaration": 545,
                 "src": "689:7:5"
               },
-              "referencedDeclaration": 513,
+              "referencedDeclaration": 545,
               "src": "689:7:5",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Staking_$513",
+                "typeIdentifier": "t_contract$_Staking_$545",
                 "typeString": "contract Staking"
               }
             },
@@ -2482,7 +2482,7 @@
               "arguments": [
                 {
                   "hexValue": "307830383838303030303030303030303030303030303030303030303030303030303030303030303032",
-                  "id": 265,
+                  "id": 297,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -2504,18 +2504,18 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 264,
+                "id": 296,
                 "name": "Staking",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 513,
+                "referencedDeclaration": 545,
                 "src": "723:7:5",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_contract$_Staking_$513_$",
+                  "typeIdentifier": "t_type$_t_contract$_Staking_$545_$",
                   "typeString": "type(contract Staking)"
                 }
               },
-              "id": 266,
+              "id": 298,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -2526,7 +2526,7 @@
               "src": "723:51:5",
               "tryCall": false,
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Staking_$513",
+                "typeIdentifier": "t_contract$_Staking_$545",
                 "typeString": "contract Staking"
               }
             },
@@ -2535,18 +2535,18 @@
           {
             "constant": true,
             "documentation": {
-              "id": 268,
+              "id": 300,
               "nodeType": "StructuredDocumentation",
               "src": "781:38:5",
               "text": " @dev ConfluxContext"
             },
             "functionSelector": "5ddd094f",
-            "id": 274,
+            "id": 306,
             "mutability": "constant",
             "name": "CONFLUX_CONTEXT",
             "nameLocation": "855:15:5",
             "nodeType": "VariableDeclaration",
-            "scope": 282,
+            "scope": 314,
             "src": "824:107:5",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2555,10 +2555,10 @@
               "typeString": "contract ConfluxContext"
             },
             "typeName": {
-              "id": 270,
+              "id": 302,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 269,
+                "id": 301,
                 "name": "ConfluxContext",
                 "nodeType": "IdentifierPath",
                 "referencedDeclaration": 190,
@@ -2575,7 +2575,7 @@
               "arguments": [
                 {
                   "hexValue": "307830383838303030303030303030303030303030303030303030303030303030303030303030303034",
-                  "id": 272,
+                  "id": 304,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -2597,7 +2597,7 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 271,
+                "id": 303,
                 "name": "ConfluxContext",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
@@ -2608,7 +2608,7 @@
                   "typeString": "type(contract ConfluxContext)"
                 }
               },
-              "id": 273,
+              "id": 305,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -2628,39 +2628,39 @@
           {
             "constant": true,
             "documentation": {
-              "id": 275,
+              "id": 307,
               "nodeType": "StructuredDocumentation",
               "src": "938:35:5",
               "text": " @dev PoSRegister"
             },
             "functionSelector": "040a000e",
-            "id": 281,
+            "id": 313,
             "mutability": "constant",
             "name": "POS_REGISTER",
             "nameLocation": "1006:12:5",
             "nodeType": "VariableDeclaration",
-            "scope": 282,
+            "scope": 314,
             "src": "978:98:5",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_PoSRegister_$362",
+              "typeIdentifier": "t_contract$_PoSRegister_$394",
               "typeString": "contract PoSRegister"
             },
             "typeName": {
-              "id": 277,
+              "id": 309,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 276,
+                "id": 308,
                 "name": "PoSRegister",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 362,
+                "referencedDeclaration": 394,
                 "src": "978:11:5"
               },
-              "referencedDeclaration": 362,
+              "referencedDeclaration": 394,
               "src": "978:11:5",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_PoSRegister_$362",
+                "typeIdentifier": "t_contract$_PoSRegister_$394",
                 "typeString": "contract PoSRegister"
               }
             },
@@ -2668,7 +2668,7 @@
               "arguments": [
                 {
                   "hexValue": "307830383838303030303030303030303030303030303030303030303030303030303030303030303035",
-                  "id": 279,
+                  "id": 311,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -2690,18 +2690,18 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 278,
+                "id": 310,
                 "name": "PoSRegister",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 362,
+                "referencedDeclaration": 394,
                 "src": "1021:11:5",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_contract$_PoSRegister_$362_$",
+                  "typeIdentifier": "t_type$_t_contract$_PoSRegister_$394_$",
                   "typeString": "type(contract PoSRegister)"
                 }
               },
-              "id": 280,
+              "id": 312,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -2712,14 +2712,14 @@
               "src": "1021:55:5",
               "tryCall": false,
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_PoSRegister_$362",
+                "typeIdentifier": "t_contract$_PoSRegister_$394",
                 "typeString": "contract PoSRegister"
               }
             },
             "visibility": "public"
           }
         ],
-        "scope": 283,
+        "scope": 315,
         "src": "289:790:5",
         "usedErrors": []
       }
@@ -2732,7 +2732,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2022-06-07T10:02:32.725Z",
+  "updatedAt": "2022-06-08T07:46:56.838Z",
   "devdoc": {
     "details": "This library includes initialized Internal Contract instance.",
     "kind": "dev",

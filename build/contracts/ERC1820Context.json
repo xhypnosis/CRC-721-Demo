@@ -15,21 +15,21 @@
     "absolutePath": "@confluxfans/contracts/utils/ERC1820Context.sol",
     "exportedSymbols": {
       "Address": [
-        2114
+        2146
       ],
       "ERC1820Context": [
-        559
+        591
       ],
       "IERC1820Registry": [
-        2539
+        2571
       ]
     },
-    "id": 560,
+    "id": 592,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 515,
+        "id": 547,
         "literals": [
           "solidity",
           "^",
@@ -42,11 +42,11 @@
       {
         "absolutePath": "@openzeppelin/contracts/utils/Address.sol",
         "file": "@openzeppelin/contracts/utils/Address.sol",
-        "id": 516,
+        "id": 548,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 560,
-        "sourceUnit": 2115,
+        "scope": 592,
+        "sourceUnit": 2147,
         "src": "58:51:9",
         "symbolAliases": [],
         "unitAlias": ""
@@ -54,11 +54,11 @@
       {
         "absolutePath": "@openzeppelin/contracts/utils/introspection/IERC1820Registry.sol",
         "file": "@openzeppelin/contracts/utils/introspection/IERC1820Registry.sol",
-        "id": 517,
+        "id": 549,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 560,
-        "sourceUnit": 2540,
+        "scope": 592,
+        "sourceUnit": 2572,
         "src": "110:74:9",
         "symbolAliases": [],
         "unitAlias": ""
@@ -69,33 +69,33 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 518,
+          "id": 550,
           "nodeType": "StructuredDocumentation",
           "src": "186:66:9",
           "text": " @dev Supports ERC1820 registry on both ETH and Conflux."
         },
         "fullyImplemented": true,
-        "id": 559,
+        "id": 591,
         "linearizedBaseContracts": [
-          559
+          591
         ],
         "name": "ERC1820Context",
         "nameLocation": "271:14:9",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 521,
+            "id": 553,
             "libraryName": {
-              "id": 519,
+              "id": 551,
               "name": "Address",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 2114,
+              "referencedDeclaration": 2146,
               "src": "298:7:9"
             },
             "nodeType": "UsingForDirective",
             "src": "292:26:9",
             "typeName": {
-              "id": 520,
+              "id": 552,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "310:7:9",
@@ -108,12 +108,12 @@
           },
           {
             "constant": true,
-            "id": 524,
+            "id": 556,
             "mutability": "constant",
             "name": "_ERC1820_REGISTRY_ETH",
             "nameLocation": "349:21:9",
             "nodeType": "VariableDeclaration",
-            "scope": 559,
+            "scope": 591,
             "src": "324:91:9",
             "stateVariable": true,
             "storageLocation": "default",
@@ -122,7 +122,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 522,
+              "id": 554,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "324:7:9",
@@ -134,7 +134,7 @@
             },
             "value": {
               "hexValue": "307831383230613442373631384264453731446365386364633733614142364339353930356661443234",
-              "id": 523,
+              "id": 555,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -152,12 +152,12 @@
           },
           {
             "constant": true,
-            "id": 527,
+            "id": 559,
             "mutability": "constant",
             "name": "_ERC1820_REGISTRY_CFX",
             "nameLocation": "446:21:9",
             "nodeType": "VariableDeclaration",
-            "scope": 559,
+            "scope": 591,
             "src": "421:91:9",
             "stateVariable": true,
             "storageLocation": "default",
@@ -166,7 +166,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 525,
+              "id": 557,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "421:7:9",
@@ -178,7 +178,7 @@
             },
             "value": {
               "hexValue": "307838383838376544383839653737366243426532663066393933324563466142634466436431383230",
-              "id": 526,
+              "id": 558,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -196,13 +196,13 @@
           },
           {
             "body": {
-              "id": 537,
+              "id": 569,
               "nodeType": "Block",
               "src": "579:59:9",
               "statements": [
                 {
                   "expression": {
-                    "id": 535,
+                    "id": 567,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -216,32 +216,32 @@
                       "expression": {
                         "argumentTypes": [],
                         "expression": {
-                          "id": 532,
+                          "id": 564,
                           "name": "_ERC1820_REGISTRY_ETH",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 524,
+                          "referencedDeclaration": 556,
                           "src": "597:21:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
                           }
                         },
-                        "id": 533,
+                        "id": 565,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "isContract",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1837,
+                        "referencedDeclaration": 1869,
                         "src": "597:32:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$bound_to$_t_address_$",
                           "typeString": "function (address) view returns (bool)"
                         }
                       },
-                      "id": 534,
+                      "id": 566,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -261,14 +261,14 @@
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 531,
-                  "id": 536,
+                  "functionReturnParameters": 563,
+                  "id": 568,
                   "nodeType": "Return",
                   "src": "589:42:9"
                 }
               ]
             },
-            "id": 538,
+            "id": 570,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -276,23 +276,23 @@
             "nameLocation": "528:11:9",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 528,
+              "id": 560,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "539:2:9"
             },
             "returnParameters": {
-              "id": 531,
+              "id": 563,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 530,
+                  "id": 562,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 538,
+                  "scope": 570,
                   "src": "573:4:9",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -301,7 +301,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 529,
+                    "id": 561,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "573:4:9",
@@ -315,7 +315,7 @@
               ],
               "src": "572:6:9"
             },
-            "scope": 559,
+            "scope": 591,
             "src": "519:119:9",
             "stateMutability": "view",
             "virtual": true,
@@ -323,7 +323,7 @@
           },
           {
             "body": {
-              "id": 557,
+              "id": 589,
               "nodeType": "Block",
               "src": "721:183:9",
               "statements": [
@@ -332,18 +332,18 @@
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 544,
+                      "id": 576,
                       "name": "_isCfxChain",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 538,
+                      "referencedDeclaration": 570,
                       "src": "735:11:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
                         "typeString": "function () view returns (bool)"
                       }
                     },
-                    "id": 545,
+                    "id": 577,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -359,7 +359,7 @@
                     }
                   },
                   "falseBody": {
-                    "id": 555,
+                    "id": 587,
                     "nodeType": "Block",
                     "src": "827:71:9",
                     "statements": [
@@ -367,11 +367,11 @@
                         "expression": {
                           "arguments": [
                             {
-                              "id": 552,
+                              "id": 584,
                               "name": "_ERC1820_REGISTRY_ETH",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 524,
+                              "referencedDeclaration": 556,
                               "src": "865:21:9",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -386,18 +386,18 @@
                                 "typeString": "address"
                               }
                             ],
-                            "id": 551,
+                            "id": 583,
                             "name": "IERC1820Registry",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2539,
+                            "referencedDeclaration": 2571,
                             "src": "848:16:9",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_IERC1820Registry_$2539_$",
+                              "typeIdentifier": "t_type$_t_contract$_IERC1820Registry_$2571_$",
                               "typeString": "type(contract IERC1820Registry)"
                             }
                           },
-                          "id": 553,
+                          "id": 585,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -408,22 +408,22 @@
                           "src": "848:39:9",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IERC1820Registry_$2539",
+                            "typeIdentifier": "t_contract$_IERC1820Registry_$2571",
                             "typeString": "contract IERC1820Registry"
                           }
                         },
-                        "functionReturnParameters": 543,
-                        "id": 554,
+                        "functionReturnParameters": 575,
+                        "id": 586,
                         "nodeType": "Return",
                         "src": "841:46:9"
                       }
                     ]
                   },
-                  "id": 556,
+                  "id": 588,
                   "nodeType": "IfStatement",
                   "src": "731:167:9",
                   "trueBody": {
-                    "id": 550,
+                    "id": 582,
                     "nodeType": "Block",
                     "src": "750:71:9",
                     "statements": [
@@ -431,11 +431,11 @@
                         "expression": {
                           "arguments": [
                             {
-                              "id": 547,
+                              "id": 579,
                               "name": "_ERC1820_REGISTRY_CFX",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 527,
+                              "referencedDeclaration": 559,
                               "src": "788:21:9",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -450,18 +450,18 @@
                                 "typeString": "address"
                               }
                             ],
-                            "id": 546,
+                            "id": 578,
                             "name": "IERC1820Registry",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2539,
+                            "referencedDeclaration": 2571,
                             "src": "771:16:9",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_IERC1820Registry_$2539_$",
+                              "typeIdentifier": "t_type$_t_contract$_IERC1820Registry_$2571_$",
                               "typeString": "type(contract IERC1820Registry)"
                             }
                           },
-                          "id": 548,
+                          "id": 580,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -472,12 +472,12 @@
                           "src": "771:39:9",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IERC1820Registry_$2539",
+                            "typeIdentifier": "t_contract$_IERC1820Registry_$2571",
                             "typeString": "contract IERC1820Registry"
                           }
                         },
-                        "functionReturnParameters": 543,
-                        "id": 549,
+                        "functionReturnParameters": 575,
+                        "id": 581,
                         "nodeType": "Return",
                         "src": "764:46:9"
                       }
@@ -486,7 +486,7 @@
                 }
               ]
             },
-            "id": 558,
+            "id": 590,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -494,44 +494,44 @@
             "nameLocation": "653:16:9",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 539,
+              "id": 571,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "669:2:9"
             },
             "returnParameters": {
-              "id": 543,
+              "id": 575,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 542,
+                  "id": 574,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 558,
+                  "scope": 590,
                   "src": "703:16:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC1820Registry_$2539",
+                    "typeIdentifier": "t_contract$_IERC1820Registry_$2571",
                     "typeString": "contract IERC1820Registry"
                   },
                   "typeName": {
-                    "id": 541,
+                    "id": 573,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 540,
+                      "id": 572,
                       "name": "IERC1820Registry",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 2539,
+                      "referencedDeclaration": 2571,
                       "src": "703:16:9"
                     },
-                    "referencedDeclaration": 2539,
+                    "referencedDeclaration": 2571,
                     "src": "703:16:9",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC1820Registry_$2539",
+                      "typeIdentifier": "t_contract$_IERC1820Registry_$2571",
                       "typeString": "contract IERC1820Registry"
                     }
                   },
@@ -540,14 +540,14 @@
               ],
               "src": "702:18:9"
             },
-            "scope": 559,
+            "scope": 591,
             "src": "644:260:9",
             "stateMutability": "view",
             "virtual": true,
             "visibility": "internal"
           }
         ],
-        "scope": 560,
+        "scope": 592,
         "src": "253:653:9",
         "usedErrors": []
       }
@@ -558,21 +558,21 @@
     "absolutePath": "@confluxfans/contracts/utils/ERC1820Context.sol",
     "exportedSymbols": {
       "Address": [
-        2114
+        2146
       ],
       "ERC1820Context": [
-        559
+        591
       ],
       "IERC1820Registry": [
-        2539
+        2571
       ]
     },
-    "id": 560,
+    "id": 592,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 515,
+        "id": 547,
         "literals": [
           "solidity",
           "^",
@@ -585,11 +585,11 @@
       {
         "absolutePath": "@openzeppelin/contracts/utils/Address.sol",
         "file": "@openzeppelin/contracts/utils/Address.sol",
-        "id": 516,
+        "id": 548,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 560,
-        "sourceUnit": 2115,
+        "scope": 592,
+        "sourceUnit": 2147,
         "src": "58:51:9",
         "symbolAliases": [],
         "unitAlias": ""
@@ -597,11 +597,11 @@
       {
         "absolutePath": "@openzeppelin/contracts/utils/introspection/IERC1820Registry.sol",
         "file": "@openzeppelin/contracts/utils/introspection/IERC1820Registry.sol",
-        "id": 517,
+        "id": 549,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 560,
-        "sourceUnit": 2540,
+        "scope": 592,
+        "sourceUnit": 2572,
         "src": "110:74:9",
         "symbolAliases": [],
         "unitAlias": ""
@@ -612,33 +612,33 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 518,
+          "id": 550,
           "nodeType": "StructuredDocumentation",
           "src": "186:66:9",
           "text": " @dev Supports ERC1820 registry on both ETH and Conflux."
         },
         "fullyImplemented": true,
-        "id": 559,
+        "id": 591,
         "linearizedBaseContracts": [
-          559
+          591
         ],
         "name": "ERC1820Context",
         "nameLocation": "271:14:9",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 521,
+            "id": 553,
             "libraryName": {
-              "id": 519,
+              "id": 551,
               "name": "Address",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 2114,
+              "referencedDeclaration": 2146,
               "src": "298:7:9"
             },
             "nodeType": "UsingForDirective",
             "src": "292:26:9",
             "typeName": {
-              "id": 520,
+              "id": 552,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "310:7:9",
@@ -651,12 +651,12 @@
           },
           {
             "constant": true,
-            "id": 524,
+            "id": 556,
             "mutability": "constant",
             "name": "_ERC1820_REGISTRY_ETH",
             "nameLocation": "349:21:9",
             "nodeType": "VariableDeclaration",
-            "scope": 559,
+            "scope": 591,
             "src": "324:91:9",
             "stateVariable": true,
             "storageLocation": "default",
@@ -665,7 +665,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 522,
+              "id": 554,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "324:7:9",
@@ -677,7 +677,7 @@
             },
             "value": {
               "hexValue": "307831383230613442373631384264453731446365386364633733614142364339353930356661443234",
-              "id": 523,
+              "id": 555,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -695,12 +695,12 @@
           },
           {
             "constant": true,
-            "id": 527,
+            "id": 559,
             "mutability": "constant",
             "name": "_ERC1820_REGISTRY_CFX",
             "nameLocation": "446:21:9",
             "nodeType": "VariableDeclaration",
-            "scope": 559,
+            "scope": 591,
             "src": "421:91:9",
             "stateVariable": true,
             "storageLocation": "default",
@@ -709,7 +709,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 525,
+              "id": 557,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "421:7:9",
@@ -721,7 +721,7 @@
             },
             "value": {
               "hexValue": "307838383838376544383839653737366243426532663066393933324563466142634466436431383230",
-              "id": 526,
+              "id": 558,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -739,13 +739,13 @@
           },
           {
             "body": {
-              "id": 537,
+              "id": 569,
               "nodeType": "Block",
               "src": "579:59:9",
               "statements": [
                 {
                   "expression": {
-                    "id": 535,
+                    "id": 567,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -759,32 +759,32 @@
                       "expression": {
                         "argumentTypes": [],
                         "expression": {
-                          "id": 532,
+                          "id": 564,
                           "name": "_ERC1820_REGISTRY_ETH",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 524,
+                          "referencedDeclaration": 556,
                           "src": "597:21:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
                           }
                         },
-                        "id": 533,
+                        "id": 565,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "isContract",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1837,
+                        "referencedDeclaration": 1869,
                         "src": "597:32:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$bound_to$_t_address_$",
                           "typeString": "function (address) view returns (bool)"
                         }
                       },
-                      "id": 534,
+                      "id": 566,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -804,14 +804,14 @@
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 531,
-                  "id": 536,
+                  "functionReturnParameters": 563,
+                  "id": 568,
                   "nodeType": "Return",
                   "src": "589:42:9"
                 }
               ]
             },
-            "id": 538,
+            "id": 570,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -819,23 +819,23 @@
             "nameLocation": "528:11:9",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 528,
+              "id": 560,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "539:2:9"
             },
             "returnParameters": {
-              "id": 531,
+              "id": 563,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 530,
+                  "id": 562,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 538,
+                  "scope": 570,
                   "src": "573:4:9",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -844,7 +844,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 529,
+                    "id": 561,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "573:4:9",
@@ -858,7 +858,7 @@
               ],
               "src": "572:6:9"
             },
-            "scope": 559,
+            "scope": 591,
             "src": "519:119:9",
             "stateMutability": "view",
             "virtual": true,
@@ -866,7 +866,7 @@
           },
           {
             "body": {
-              "id": 557,
+              "id": 589,
               "nodeType": "Block",
               "src": "721:183:9",
               "statements": [
@@ -875,18 +875,18 @@
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 544,
+                      "id": 576,
                       "name": "_isCfxChain",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 538,
+                      "referencedDeclaration": 570,
                       "src": "735:11:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
                         "typeString": "function () view returns (bool)"
                       }
                     },
-                    "id": 545,
+                    "id": 577,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -902,7 +902,7 @@
                     }
                   },
                   "falseBody": {
-                    "id": 555,
+                    "id": 587,
                     "nodeType": "Block",
                     "src": "827:71:9",
                     "statements": [
@@ -910,11 +910,11 @@
                         "expression": {
                           "arguments": [
                             {
-                              "id": 552,
+                              "id": 584,
                               "name": "_ERC1820_REGISTRY_ETH",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 524,
+                              "referencedDeclaration": 556,
                               "src": "865:21:9",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -929,18 +929,18 @@
                                 "typeString": "address"
                               }
                             ],
-                            "id": 551,
+                            "id": 583,
                             "name": "IERC1820Registry",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2539,
+                            "referencedDeclaration": 2571,
                             "src": "848:16:9",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_IERC1820Registry_$2539_$",
+                              "typeIdentifier": "t_type$_t_contract$_IERC1820Registry_$2571_$",
                               "typeString": "type(contract IERC1820Registry)"
                             }
                           },
-                          "id": 553,
+                          "id": 585,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -951,22 +951,22 @@
                           "src": "848:39:9",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IERC1820Registry_$2539",
+                            "typeIdentifier": "t_contract$_IERC1820Registry_$2571",
                             "typeString": "contract IERC1820Registry"
                           }
                         },
-                        "functionReturnParameters": 543,
-                        "id": 554,
+                        "functionReturnParameters": 575,
+                        "id": 586,
                         "nodeType": "Return",
                         "src": "841:46:9"
                       }
                     ]
                   },
-                  "id": 556,
+                  "id": 588,
                   "nodeType": "IfStatement",
                   "src": "731:167:9",
                   "trueBody": {
-                    "id": 550,
+                    "id": 582,
                     "nodeType": "Block",
                     "src": "750:71:9",
                     "statements": [
@@ -974,11 +974,11 @@
                         "expression": {
                           "arguments": [
                             {
-                              "id": 547,
+                              "id": 579,
                               "name": "_ERC1820_REGISTRY_CFX",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 527,
+                              "referencedDeclaration": 559,
                               "src": "788:21:9",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -993,18 +993,18 @@
                                 "typeString": "address"
                               }
                             ],
-                            "id": 546,
+                            "id": 578,
                             "name": "IERC1820Registry",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2539,
+                            "referencedDeclaration": 2571,
                             "src": "771:16:9",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_IERC1820Registry_$2539_$",
+                              "typeIdentifier": "t_type$_t_contract$_IERC1820Registry_$2571_$",
                               "typeString": "type(contract IERC1820Registry)"
                             }
                           },
-                          "id": 548,
+                          "id": 580,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1015,12 +1015,12 @@
                           "src": "771:39:9",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IERC1820Registry_$2539",
+                            "typeIdentifier": "t_contract$_IERC1820Registry_$2571",
                             "typeString": "contract IERC1820Registry"
                           }
                         },
-                        "functionReturnParameters": 543,
-                        "id": 549,
+                        "functionReturnParameters": 575,
+                        "id": 581,
                         "nodeType": "Return",
                         "src": "764:46:9"
                       }
@@ -1029,7 +1029,7 @@
                 }
               ]
             },
-            "id": 558,
+            "id": 590,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -1037,44 +1037,44 @@
             "nameLocation": "653:16:9",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 539,
+              "id": 571,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "669:2:9"
             },
             "returnParameters": {
-              "id": 543,
+              "id": 575,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 542,
+                  "id": 574,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 558,
+                  "scope": 590,
                   "src": "703:16:9",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IERC1820Registry_$2539",
+                    "typeIdentifier": "t_contract$_IERC1820Registry_$2571",
                     "typeString": "contract IERC1820Registry"
                   },
                   "typeName": {
-                    "id": 541,
+                    "id": 573,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 540,
+                      "id": 572,
                       "name": "IERC1820Registry",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 2539,
+                      "referencedDeclaration": 2571,
                       "src": "703:16:9"
                     },
-                    "referencedDeclaration": 2539,
+                    "referencedDeclaration": 2571,
                     "src": "703:16:9",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IERC1820Registry_$2539",
+                      "typeIdentifier": "t_contract$_IERC1820Registry_$2571",
                       "typeString": "contract IERC1820Registry"
                     }
                   },
@@ -1083,14 +1083,14 @@
               ],
               "src": "702:18:9"
             },
-            "scope": 559,
+            "scope": 591,
             "src": "644:260:9",
             "stateMutability": "view",
             "virtual": true,
             "visibility": "internal"
           }
         ],
-        "scope": 560,
+        "scope": 592,
         "src": "253:653:9",
         "usedErrors": []
       }
@@ -1103,7 +1103,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2022-06-07T10:02:32.748Z",
+  "updatedAt": "2022-06-08T07:46:56.859Z",
   "devdoc": {
     "details": "Supports ERC1820 registry on both ETH and Conflux.",
     "kind": "dev",
